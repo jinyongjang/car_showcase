@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import { searchBarProps } from "@/types";
 
 import { SearchManufacturer } from "./";
 import Image from "next/image";
@@ -18,7 +19,7 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   </button>
 );
 
-const SearchBar = ({ setManufacturer, setModel }) => {
+const SearchBar = ({ setManufacturer, setModel }: searchBarProps) => {
   const [searchManufacturer, setSearchManufacturer] = useState("");
   const [searchModel, setSearchModel] = useState("");
   const router = useRouter();
@@ -27,7 +28,7 @@ const SearchBar = ({ setManufacturer, setModel }) => {
     e.preventDefault();
 
     if (searchManufacturer === "" && searchModel === "") {
-      return alert("Please fill in the search bar");
+      return alert("Prlease fill in the seach bar");
     }
 
     setModel(searchModel);
