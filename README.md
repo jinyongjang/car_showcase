@@ -4,7 +4,7 @@
 
 
 RapidAPI에서 제공하는 자동차 API를 활용하여 카탈로그 형식으로 제작한 사이트입니다.
-> View Demo : [https://car-showcase-jjul.netlify.app](https://jin-car-showcase.netlify.app/)/
+> View Demo : [https://jin-car-showcase.netlify.app/]/
 
 ![car_sub](https://github.com/YeoDaSeul4355/car_showcase/assets/125419623/5ccee91d-88a0-466f-8a9a-692f40892deb)
 
